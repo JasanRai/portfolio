@@ -9,8 +9,6 @@ import Introduction from "./components/Introduction";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <Introduction />
     <App />
   </React.StrictMode>
 );
