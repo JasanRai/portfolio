@@ -16,7 +16,7 @@ function Introduction() {
             <div>
               <button className='group text-white w-32 px-6 py-3 my-2 flex justify-center center items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
                 Skills
-                <span className='group-hover:rotate-90 duration-300 ml-2'>
+                <span className='group-hover:rotate-90 duration-300 ml-22'>
                   <HiArrowSmRight />
                 </span>
               </button>
