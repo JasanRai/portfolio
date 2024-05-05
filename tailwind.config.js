@@ -16,6 +16,9 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
     extend: {},
+    fontFamily: {
+      signature: ["Dancing Script"],
+    },
   },
   plugins: ["prettier-plugin-tailwindcss"],
 };
