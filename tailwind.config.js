@@ -14,6 +14,9 @@ module.exports = {
 
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
+
+      tall: { raw: "(min-height: 800px)" },
+      // => @media (min-height: 800px) { ... }
     },
     extend: {},
     fontFamily: {

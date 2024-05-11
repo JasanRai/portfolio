@@ -64,18 +64,18 @@ function Skills() {
 
   return (
     <div name="Skills" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-       <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full'>
-        <div className='pb-8 flex flex-col items-center mt-28'>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Skills
+       <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full justify-center'>
+        <div className='pb-8 flex flex-col items-center'>
+          <p className="text-7xl font-bold inline border-b-4 border-gray-500 mb-14">
+            Technical Skills
           </p>
-          <p>
+          <p className="text-xl mb-14">
             These are the technical skills that I have acquired:
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 tall:py-0 sm:px-0">
           {languages.map(({img, id, name,style}) => (
-            <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+            <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} mt-8`}>
             <img src = {img} alt="" className='h-28 w-28 mx-auto'/>
             <h3>
               {name}
