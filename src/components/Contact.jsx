@@ -1,11 +1,10 @@
-import React, { Fragment, useRef, useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { Dialog, Transition } from '@headlessui/react'
 
 
 function Contact() {
   
-    const form = useRef();
     const [open, setOpen] = useState(false)
 
     const letsTalkBtnOnClick = () => {
