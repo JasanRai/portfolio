@@ -73,9 +73,9 @@ function Skills() {
             These are the technical skills that I have acquired:
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 tall:py-0 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 p-5 place-items-center items-center text-center py-8 px-12 tall:py-0 sm:px-0" style={{background:"rgba(55, 65, 81,0.24)", borderRadius:"16px", boxShadow: "0 4px 30px rgba(0,0,0,0.1)", backdropFilter:"blur(5px)", WebkitBackdropFilter:"blur(5px)", border:"1px solid rgba(55, 65, 81, 0.3)"}}>
           {languages.map(({img, id, name,style}) => (
-            <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} mt-8`}>
+            <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} mt-8 w-3/4 mb-8`}>
             <img src = {img} alt="" className='h-28 w-28 mx-auto'/>
             <h3>
               {name}
