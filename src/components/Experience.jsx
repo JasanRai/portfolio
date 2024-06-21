@@ -2,7 +2,6 @@ import React from 'react'
 import CmsImg from "../images/cms2.png"
 import GiecImg from "../images/giec5.png"
 import eliteFeatsImg from "../images/elitefeats5.png"
-import Github from "../images/github.png"
 
 function Experience() {
   return (
