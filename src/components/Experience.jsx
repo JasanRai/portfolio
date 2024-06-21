@@ -1,4 +1,8 @@
 import React from 'react'
+import CmsImg from "../images/cms2.png"
+import GiecImg from "../images/giec5.png"
+import eliteFeatsImg from "../images/elitefeats5.png"
+import Github from "../images/github.png"
 
 function Experience() {
   return (
@@ -7,30 +11,65 @@ function Experience() {
         <div className='pb-8 flex flex-col items-center'>
         <p className='text-7xl font-bold border-b-4 border-gray-500 flex justify-center -mt-32'>Experience</p>
         </div>
-        <div className='w-full grid grid-cols-2 gap-2 text-center py-2 px-8'>
-          <p className='flex justify-start items-center text-lg'>April 2021 - June 2021 </p>
-          <div>
-            <p className='text-xl font-bold border-b-2 border-white mb-2'>Neesham Consulting - Frontend Developer</p>
-            <ul className='list-disc text-left'>
-            <li>Worked on registration and login flows for CMS</li>
-            <li>Form handling and Form validation</li>
-            <li>Utilized ReactJS and MaterialUI to create visually appealing </li>
-            <li>Backend Integration for Login/Register</li>
-            <li>Tested software for bugs and operating speed</li>
-            </ul>
+        <div className="grid grid-cols-3 gap-8 h-1/6 mb-5">
+        <div className=''>
+          <p className='flex justify-center'>EliteFeats CMS</p>
+          <div className='shadow-2xl flex justify-center rounded-xl w-11/12'>
+          <a href='https://clients.elitefeats.com.au/auth/login/' target='_blank' rel="noreferrer" >
+            <div className='transition ease-in-out delay-150 hover:scale-110 duration-300...'>
+            <img src={CmsImg} alt="cms" className='rounded-xl'/>
+            </div>
+            </a>
+            </div>
+            <p className='mt-5'>
+              <ul className='list-disc text-left'>
+                <li>Uni Project</li>
+                <li>Front-End Developer</li>
+                <li>Form Handling and Validation</li>
+                <li>ReactJS/ MaterialUI / Formik</li>
+                <li>Backend Integration</li>
+                <li>Testing</li>
+              </ul>
+            </p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 gap-3 text-center py-2 px-8 mt-12'>
-          <p className='flex justify-start items-center text-lg'>Nov 2023 - Feb 2024 </p>
+
           <div>
-            <p className='text-xl font-bold border-b-2 border-white '>Digimark Online Services - SEO Intern</p>
-            <ul className='list-disc text-left'>
-            <li>Conducted market research and competitor analysis</li>
-            <li>Optimized web pages with relevant meta tags</li>
-            <li>Conducted regular backlink profile audits </li>
-            <li>Developed proficiency in various SEO tools</li>
-            
-            </ul>
+          <p className='flex justify-center'>SEO Internship</p>
+          <div className='shadow-2xl flex justify-center rounded-xl w-11/12'>
+          <a href="https://giecglobal.com/" target="_blank" rel="noreferrer">
+            <div className='transition ease-in-out delay-150 hover:scale-110 duration-300... '>
+            <img src={GiecImg} alt="giec" className='rounded-xl'/>
+            </div>
+            </a>
+            </div>
+            <p className='mt-5'>
+              <ul className='list-disc text-left'>
+                <li>Market research and Competitor Analysis</li>
+                <li>Keyword research with Google Keyword Planner</li>
+                <li>Webpage Optimization with Meta Tags, Header Tags,etc</li>
+                <li>Developed Proficiency in SEO Tools such as SemRushs, Ahrefs, etc</li>
+              </ul>
+            </p>
+          </div>
+          
+          <div>
+          <p className='flex justify-center'>Neesham Consulting</p>
+          <div className='shadow-2xl flex justify-center rounded-xl w-11/12'>
+          <a href='https://elitefeats.com.au/' target='_blank' rel="noreferrer" >
+            <div className='transition ease-in-out delay-150 hover:scale-110 duration-300...'>
+            <img src={eliteFeatsImg} alt="cms" className='rounded-xl'/>
+            </div>
+            </a>
+            </div>
+            <p className='mt-5'>
+              <ul className='list-disc text-left'>
+                <li>Casual Freelancing</li>
+                <li>Wordpress</li>
+                <li>Layout Changes</li>
+                <li>Various Plugins Research</li>
+                <li>Basic Functionality</li>
+              </ul>
+            </p>
           </div>
         </div>
        </div>
